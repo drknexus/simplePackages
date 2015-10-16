@@ -1,6 +1,6 @@
 Package: listWithDefaults
 Type: Package
-Title: Create lists from arguments with default values
+Title: List With Defaults
 Version: 1.0.0
 Date: 2015-10-16
 Author: Russell S. Pierce

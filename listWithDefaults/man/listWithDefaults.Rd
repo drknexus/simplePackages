@@ -12,11 +12,11 @@ listWithDefaults(..., defaultList = NULL)
 \item{defaultList}{a \emph{named} list containing the default values}
 }
 \description{
-Takes arguments as base::list to create a list.
+Takes arguments as \link{\code{list}} to create a list.
 If any arguments are present in \code{defaultList}, but absent in ..., then the values from \code{defaultList} are used.
 }
 \note{
-Argument order is not controlled.  Non-default arguments come first in the order specified followed by all default arguements.
+Argument order is not controlled.  Non-default arguments come first in the order specified followed by all default arguments.
 }
 \examples{
 listWithDefaults(defaultList=list(a=2,b=2))

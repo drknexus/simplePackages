@@ -12,7 +12,7 @@ listWithDefaults(..., defaultList = NULL)
 \item{defaultList}{a \emph{named} list containing the default values}
 }
 \description{
-Takes arguments as \link{\code{list}} to create a list.
+Takes arguments as \code{base::list} to create a list.
 If any arguments are present in \code{defaultList}, but absent in ..., then the values from \code{defaultList} are used.
 }
 \note{
